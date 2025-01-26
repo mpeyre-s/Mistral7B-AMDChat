@@ -9,7 +9,7 @@ This repository hosts a high-performance chatbot built on the open-source Mistra
 
 ### Software
 - **Docker**: Ensure Docker is installed on your machine.
-- **ROCm**: Properly configure ROCm to use your GPU with Docker. You can verify your installation by running:
+- **ROCm**: Properly configure ROCm to use your GPU with Docker. You can follow the [tuto here](https://github.com/mpeyre-s/Mistral7B-AMDChat/blob/main/rocom_installation.md). You can verify your installation by running:
   ```bash
   /opt/rocm/bin/rocminfo
   ```
