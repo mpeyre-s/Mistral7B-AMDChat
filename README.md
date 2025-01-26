@@ -25,19 +25,19 @@ cd Mistral7B-AMDChat
 Get your access token from your Hugging Face account and paste it into
 ``` your_huggingface_key.txt ```
 
-## Step 3: Build the Docker Image
+## Step 4: Build the Docker Image
 Build the Docker image using the provided Dockerfile:
 ```bash
 docker build -t mistral-chatbot .
 ```
 
-## Step 4: Run the Docker Container
+## Step 5: Run the Docker Container
 Run the container, attaching the GPU to enable computations:
 ```bash
 docker run --rm --gpus all -it mistral-chatbot
 ```
 
-## Step 5: Interact with the Chatbot
+## Step 6: Interact with the Chatbot
 Once the container is running, you can interact with the chatbot directly in the console. Type your queries, and the chatbot will respond.
 
 ---
