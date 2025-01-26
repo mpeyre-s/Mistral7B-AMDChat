@@ -21,6 +21,10 @@ git clone https://github.com/mpeyre-s/Mistral7B-AMDChat.git
 cd Mistral7B-AMDChat
 ```
 
+## Step 3: Get and set your Hugging Face API KEY
+Get your access token from your Hugging Face account and paste it into
+``` your_huggingface_key.txt ```
+
 ## Step 3: Build the Docker Image
 Build the Docker image using the provided Dockerfile:
 ```bash
