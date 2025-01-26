@@ -17,7 +17,7 @@ sudo apt install -y rocm-dkms
 For more details on specific versions and additional instructions, consult the [ROCm Installation Guide](https://rocmdocs.amd.com/).
 
 ### On Windows:
-[(Installation guide for Windows on the AMD official website.)](https://rocm.docs.amd.com/projects/install-on-windows/en/latest/reference/system-requirements.html)
+Follow the installation guide for Windows on the [AMD official website](https://rocm.docs.amd.com/projects/install-on-windows/en/latest/reference/system-requirements.html).
 
 ## 4. Verify ROCm Installation
 Once ROCm is installed, verify if your GPU is detected by ROCm using the following command:
