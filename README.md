@@ -14,6 +14,9 @@ This repository hosts a high-performance chatbot built on the open-source Mistra
   /opt/rocm/bin/rocminfo
   ```
 
+### Granted access
+Request access to the model on the [Hugging Face website](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3).
+
 ## Step 2: Clone the Project
 Clone the repository and navigate into the project directory:
 ```bash
